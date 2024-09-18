@@ -1,0 +1,35 @@
+/* .app {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 5px 0;
+  padding: 10px;
+}
+
+button {
+  margin-top: 10px;
+} */
+
+.listbook{
+  height: 50rem;
+  overflow-y: auto;
+}
+
+
+
+.element {
+  scrollbar-width: none;/* Firefox */
+}
+
+
+.element::-webkit-scrollbar {
+  display: none;/* Chrome, Safari, and Opera */
+}
